@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family:Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+	display: block;
+}
+.container{
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+div {
+    display: block;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading {
+    background: #008080;
+}
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.text-white {
+    color: #fff;
+	font-size: 25px;
+	margin-left:10px;
+}
+.justify-content-right {
+    justify-content: right;
+	padding-top: 0px;
+
+}
+
+.justify-content-center {
+    justify-content: center;
+	padding-top: 0px;
+
+}
+.border-right {
+    border-right: 3px solid #dee2e6;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.flex-column {
+    flex-direction: column;
+	display: flex;
+}
+
+li {
+    display: list-item;
+}
+
+.border-bottom {
+    border-bottom: 1px solid green;
+}
+.d-none {
+    display: none;
+}
+
+.po {
+    padding: 1rem;
+}
+
+.text-left {
+    text-align: left;
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.text-secondary {
+    color: blue;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
+.pos-col {
+   position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 0 0 50%;
+}
+.form-control {
+    display: block;
+    width: 80%;
+	margin-top:10px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    
+}
+.form-search {
+    display: block;
+    width: 50%;
+	margin-top:13px;
+	margin-left:50px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    
+}
+
+button, input {
+    overflow: visible;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+	margin-top:15px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    font-weight: bold;
+}
+p {
+    display: block;
+}
+.justify-content-end {
+    justify-content: flex;
+}
+
+.d-flex {
+    display: flex;
+}
